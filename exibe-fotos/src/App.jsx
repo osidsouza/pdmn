@@ -7,7 +7,6 @@ import ListaImagens from './components/ListaImagens'
 import PexelsLogo from './components/PexelsLogo'
 class App extends React.Component {
 
-  pexelsClient = null
 
   state = {
     photos: []
